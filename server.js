@@ -7,6 +7,7 @@ io.on('connection',(socket)=>{
 
     const idHandShake = socket.id;
     const { nameRoom } = socket.idHandShake.query;
+    console.log(`Dispositivo: ${idHandShake}`);
 
 
 
